@@ -209,7 +209,10 @@
     }
   }
   .introduction{
-    max-width: 300px;
+    max-width: 350px;
+  }
+  .right{
+    display: none;
   }
   .intro-left{
     margin-top: 100px;
@@ -255,6 +258,8 @@
     max-width: 350px;
     margin: 0 auto;
   }
-  //
-  
+  //aboutus
+  .aboutus-info{
+    flex-wrap: wrap;
+  }
 }

@@ -6,7 +6,7 @@ import arrowRed from "../asset/img/blog/arrow-right.png";
 import arrowBlue from "../asset/img/blog/arrow-right-blue.png";
 function Blog() {
   return (
-    <div className="my-10 mx-auto lg:max-w-[1140px] md:max-w-[700px]">
+    <div className="my-10 mx-auto max-w-[350px] lg:max-w-[1140px] md:max-w-[700px]">
       <div className="pt-[60px]">
         <h2 className="font-bold text-5xl text-center">See Our Blog Post</h2>
         <div className="w-full">

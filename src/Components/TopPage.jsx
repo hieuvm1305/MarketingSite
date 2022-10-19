@@ -90,10 +90,10 @@ function TopPage() {
           </div>
         </nav>
       </div>
-      <div className="introduction w-full pt-[60px]" id={1 && "service"} >
-        <div className="introduction mx-auto lg:max-w-[1140px] flex flex-row justify-between items-end">
+      <div className="introduction-par w-full pt-[60px]" id={1 && "service"} >
+        <div className="introduction mx-auto lg:max-w-[1140px] flex flex-row lg:justify-between items-end">
           <div className="intro-left mt-[285px]">
-            <h1 className="left-title font-bold text-6xl leading-tight">
+            <h1 className="left-title font-bold text-3xl md:text-6xl leading-tight">
               BEST <span className="text-red-500">MARKETING</span> COMPANY.
             </h1>
             <h4 className="left-subtitle font-medium text-2xl mt-[50px]">

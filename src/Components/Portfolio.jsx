@@ -8,7 +8,7 @@ import image13 from "../asset/img/Portfolio/image13.png";
 function Portfolio() {
   return (
     <div>
-    <div className="mx-auto lg:max-w-[1140px] md:max-w-[600px] mt-10 pt-[60px]" id={"portfolio".toString()}>
+    <div className="mx-auto max-w-[350px] lg:max-w-[1140px] md:max-w-[600px] mt-10 pt-[60px]" id={"portfolio".toString()}>
       <h2 className="font-bold text-[45px] text-center">Our Portfolio</h2>
       <div className="mt-10">
         <ul className="portfolio-list flex md:justify-between  w-3/4 md:w-1/2 mx-auto gap-2">

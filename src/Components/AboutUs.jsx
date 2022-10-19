@@ -10,18 +10,18 @@ import dot from "../asset/img/aboutus/dot.png";
 function AboutUs() {
   return (
     <div className="aboutus">
-      <div className="mt-14 mx-auto lg:max-w-[1140px] md:max-w-[700px] pt-5" id={1 && "aboutus"}>
+      <div className="mt-14 mx-auto max-w-[350px] lg:max-w-[1140px] md:max-w-[700px] pt-5" id={1 && "aboutus"}>
         <div className="">
           <h2 className="text-[#E71D36] text-[65px] font-bold">DeMo.</h2>
         </div>
-        <div className="flex flex-col lg:flex-row md:flex-wrap justify-between gap-[100px]">
+        <div className="aboutus-info flex md:flex-wrap lg:flex-row  md:justify-between gap-[30px] md:gap-[50px]">
           <div className="max-w-[350px]">
             <p className="pr-10">
               FindBestSEO has ranked PageTraffic among the top 10 SEO companies
               for 2020.
             </p>
             <br />
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row md:max-w-[400px] justify-between">
               <img src={facebook} alt="" />
               <img src={ins} alt="" />
               <img src={twitter} alt="" />
@@ -45,7 +45,7 @@ function AboutUs() {
             </h3>
             <br />
             <div className="flex flex-col md:gap-y-5">
-              <div className="flex flex-row md:justify-between gap-3">
+              <div className="flex flex-row lg:justify-between gap-3">
                 <div className="block">
                   <img
                     src={per1}
@@ -68,7 +68,7 @@ function AboutUs() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row md:justify-between gap-3">
+              <div className="flex flex-row lg:justify-between gap-3">
                 <div className="block">
                   <img src={per2} alt="" className="w-[100px] h-[100px]" />
                 </div>

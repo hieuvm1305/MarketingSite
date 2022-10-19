@@ -25,10 +25,10 @@ function WhoWeAre() {
         </div>
         <div className="whoweare-content flex lg:flex-row md:flex-col justify-between">
           <div className="lg:max-w-[400px] md:mb-5 flex flex-col gap-y-10">
-            <h2 className="font-bold text-[45px] md:text-center">
+            <h2 className="font-bold text-[30px] md:text-[45px] md:text-center lg:text-left">
               OUR CLIENT GETS RESULTS
             </h2>
-            <p className="text-lg md:text-center">
+            <p className="text-lg md:text-center lg:text-left">
               PageTraffic offers top-notch SEO and digital marketing solutions.
             </p>
           </div>
