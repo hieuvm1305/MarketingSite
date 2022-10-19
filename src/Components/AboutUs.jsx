@@ -31,7 +31,7 @@ function AboutUs() {
           <div>
             <h3 className="text-[#2EC4B6] text-2xl font-semibold">COMPANY</h3>
             <br />
-            <div className="flex flex-col gap-y-3">
+            <div className="flex flex-wrap md:flex-col gap-3">
               <p>About</p>
               <p>Service</p>
               <p>Press</p>
