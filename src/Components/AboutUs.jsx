@@ -44,7 +44,7 @@ function AboutUs() {
               LASTEST NEWS
             </h3>
             <br />
-            <div className="flex flex-col md:gap-y-5">
+            <div className="flex flex-col gap-y-5">
               <div className="flex flex-row lg:justify-between gap-3">
                 <div className="block">
                   <img
