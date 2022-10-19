@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import image_man from "../asset/img/image_man.png";
 import play from "../asset/img/play.png";
+import imgframe from "../asset/img/Maskgroup.svg"
 function TopPage() {
   const [navColor, setnavColor] = useState("");
   const listenScrollEvent = () => {
@@ -14,9 +15,10 @@ function TopPage() {
     };
   }, []);
   return (
-    <div className="header-section w-full">
+    <div className="header-section w-full relative">
+      <img src={imgframe} alt=""  className="mask absolute z-10 w-full hidden lg:inline-block"/>
       <div
-        className="navbar fixed w-full pt-[13px] z-10"
+        className="navbar fixed w-full pt-[13px] z-40"
         style={{ transition: "all 1s", backgroundColor: navColor }}
       >
         <nav className="flex flex-row mx-auto md:max-w-[700px] lg:max-w-[1140px] justify-between items-center">
@@ -90,7 +92,7 @@ function TopPage() {
           </div>
         </nav>
       </div>
-      <div className="introduction-par w-full pt-[60px]" id={1 && "service"} >
+      <div className="introduction-par w-full pt-[60px] z-20" id={1 && "service"} >
         <div className="introduction mx-auto lg:max-w-[1140px] flex flex-row lg:justify-between items-end">
           <div className="intro-left mt-[285px]">
             <h1 className="left-title font-bold text-3xl md:text-6xl leading-tight lg:leading-snug">
@@ -118,7 +120,7 @@ function TopPage() {
               </div>
             </div>
           </div>
-          <div className="right mt-[111px]">
+          <div className="right mt-[111px] z-20">
             <img className="block" src={image_man} alt="man" />
           </div>
         </div>
