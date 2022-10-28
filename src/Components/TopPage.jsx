@@ -21,7 +21,7 @@ function TopPage() {
         className="navbar fixed w-full pt-[13px] z-40"
         style={{ transition: "all 1s", backgroundColor: navColor }}
       >
-        <nav className="flex flex-row mx-auto md:max-w-[700px] lg:max-w-[1140px] justify-between items-center">
+        <nav className="flex flex-row mx-auto w-5/6 justify-between items-center">
           <div className="text-6xl text-red-500 font-bold">
             <a href="#service">DeMo.</a>
           </div>
@@ -92,13 +92,13 @@ function TopPage() {
           </div>
         </nav>
       </div>
-      <div className="introduction-par w-full pt-[60px] z-20" id={1 && "service"} >
-        <div className="introduction mx-auto lg:max-w-[1140px] flex flex-row lg:justify-between items-end">
-          <div className="intro-left mt-[285px]">
+      <div className="introduction-par  w-full pt-[60px]" id={1 && "service"} >
+        <div className="introduction  mx-auto md:mt-10 w-5/6 flex flex-row lg:justify-between items-end">
+          <div className="intro-left z-30">
             <h1 className="left-title font-bold text-3xl md:text-6xl leading-tight lg:leading-snug">
               BEST <span className="text-red-500">MARKETING</span> COMPANY.
             </h1>
-            <h4 className="left-subtitle font-medium text-2xl mt-[50px]">
+            <h4 className="left-subtitle font-medium text-2xl mt-8 xl:mt-[50px]">
               #1 MARKETING Services Agency in USA & UK
             </h4>
             <p className="left-detail mt-[30px] font-normal text-lg mb-10 max-w-[520px]">
@@ -120,7 +120,7 @@ function TopPage() {
               </div>
             </div>
           </div>
-          <div className="right mt-[111px] z-20">
+          <div className="right z-20">
             <img className="block" src={image_man} alt="man" />
           </div>
         </div>
