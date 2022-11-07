@@ -1,12 +1,14 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import image_man from "../asset/img/image_man.png";
 import play from "../asset/img/play.png";
 import imgframe from "../asset/img/Maskgroup.svg"
 function TopPage() {
   const [navColor, setnavColor] = useState("");
+  const navBar = useRef();
   const listenScrollEvent = () => {
     window.scrollY > 15 ? setnavColor("white") : setnavColor("");
+    
   };
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
@@ -20,6 +22,7 @@ function TopPage() {
       <div
         className="navbar fixed w-full pt-[13px] z-40"
         style={{ transition: "all 1s", backgroundColor: navColor }}
+        ref={navBar}
       >
         <nav className="flex flex-row mx-auto w-5/6 justify-between items-center">
           <div className="text-6xl text-red-500 font-bold">
@@ -33,7 +36,7 @@ function TopPage() {
                 </a>
               </li>
               <li className="mt-5">
-                <a href="#package" className="navlink px-1 font-normal">
+                <a href="#package" className="navlink px-1 py-1 font-normal">
                   Package
                 </a>
               </li>
@@ -105,9 +108,9 @@ function TopPage() {
               If you're looking for the best SEO company for your business,
               PageTraffic is the perfect choice.
             </p>
-            <div className="btns flex flex-row pb-3">
-              <button className="px-9 rounded-[62px] bg-red-500 text-white font-bold text-xl">
-                Get start
+            <div className="btns flex flex-row pb-3 items-center">
+              <button className="px-3 py-2 sm:px-9 rounded-[62px] bg-red-500">
+                <a href="#service" className=" text-white font-bold text-xs  sm:text-xl">Get start</a>
               </button>
               <div className="play-btn flex flex-row text-center justify-between ml-[33px]">
                 <img src={play} alt="play" />
