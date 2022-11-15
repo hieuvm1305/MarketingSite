@@ -24,13 +24,13 @@ function Packake() {
             <img src={entrepreneur} alt="etran" className="p-2" />
           </div>
         </div>
-        <div className="desc-package flex md:justify-between mx-auto  lg:max-w-[980px] xl:max-w-[1140px] gap-x-1">
+        <div className="desc-package flex md:justify-between mx-auto gap-x-1">
           <div className="description-left items-center">
-            <h1 className="tracking-wide mb-[38px] font-medium text-3xl mt-14">
+            <h1 className="tracking-wide mb-9 font-medium text-3xl mt-14">
               HOW PAGETRAFFIC CREATES <br />
               HYPER BUSINESS GROWTH
             </h1>
-            <p className="text-lg max-w-[464px]">
+            <p className="text-lg max-w-[50%]">
               PageTraffic offers top-notch SEO and digital marketing solutions
               to help you rank high on search results, connect with.
             </p>
@@ -67,7 +67,7 @@ function Packake() {
               </li>
             </ul>
 
-            <div className="number flex justify-between max-w-[340px] my-8">
+            <div className="number flex justify-between max-w-xs my-8">
               <div className="number-detail">
                 <h2 className="text-red-500 font-bold text-3xl">1.9K</h2>
                 <p>Total Audience</p>
