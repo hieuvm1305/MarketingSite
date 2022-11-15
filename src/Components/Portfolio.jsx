@@ -31,7 +31,7 @@ function Portfolio() {
               <a href="/">UI/UX</a>
             </li>
           </ul>
-          <div className="grid lg:grid-cols-3 md:grid-cols-2  gap-5 mt-5 mx-auto">
+          <div className="grid lg:grid-cols-3 sm:grid-cols-2  gap-5 mt-5 mx-auto">
             <img src={image8} alt="" className="m-auto w-[90%] max-h-[90%] rounded" />
             <img src={image9} alt="" className="m-auto w-[90%] max-h-[90%] rounded" />
             <img src={image10} alt="" className="m-auto w-[90%] max-h-[90%] rounded" />
