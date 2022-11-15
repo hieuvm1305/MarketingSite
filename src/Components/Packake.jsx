@@ -8,6 +8,7 @@ import entrepreneur from "../asset/img/logobrand/entrepreneur.png";
 import pen from "../asset/img/Description/pen.png";
 import search from "../asset/img/Description/search.png";
 function Packake() {
+  console.log("first");
   return (
     <div id="package" className="mb-5">
       <div className="pt-[60px] w-5/6 mx-auto">
